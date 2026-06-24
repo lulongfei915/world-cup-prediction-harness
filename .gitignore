@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Generated run outputs
+runs/*/
+!runs/.gitkeep
+
+# Local result files
+data/results.json
+memory/review-*.md
+
