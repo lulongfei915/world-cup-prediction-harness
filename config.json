@@ -1,0 +1,28 @@
+{
+  "project": "world-cup-prediction-harness",
+  "timezone": "Asia/Shanghai",
+  "default_competition": "FIFA World Cup",
+  "prediction_labels": ["home_win", "draw", "away_win"],
+  "confidence_scale": {
+    "min": 0,
+    "max": 100,
+    "guidance": "Use 50 for weak lean, 60-70 for supported lean, 70-80 for strong evidence, above 80 only when facts are unusually clear."
+  },
+  "required_checks": [
+    "fixture_exists",
+    "kickoff_time_verified",
+    "team_names_verified",
+    "match_status_verified",
+    "injuries_or_suspensions_checked",
+    "source_urls_collected"
+  ],
+  "recommended_sources": [
+    "FIFA official match centre",
+    "ESPN soccer schedule and match pages",
+    "Opta or Stats Perform public previews",
+    "team federation official channels",
+    "press conference reports",
+    "weather reports for venue city"
+  ]
+}
+
